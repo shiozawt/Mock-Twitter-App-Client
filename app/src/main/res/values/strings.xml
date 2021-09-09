@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Tweeter</string>
+
+    <string name="logoutMenuTitle">Logout</string>
+
+    <string name="homePageTitle">Home</string>
+    <string name="userImageContentDescription">The user\'s image</string>
+
+    <string name="title_activity_main">Tweeter</string>
+    <string name="loadingData">Loading More Data…</string>
+    <string name="feedTabTitle">Feed</string>
+    <string name="storyTabTitle">Story</string>
+    <string name="followingTabTitle">Following</string>
+    <string name="followersTabTitle">Followers</string>
+
+    <string name="sampleAlias">"@UserAlias"</string>
+    <string name="sampleUserName">The User</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="followeeCount">Following: %d</string>
+    <string name="followerCount">Followers: %d</string>
+    <string name="usernameLoginHint">"@username"</string>
+    <string name="passwordLoginHint">"@password"</string>
+    <string name="passwordConfirmLoginHint">"@confirm password"</string>
+    <string name="loginButtonText">Login</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="tweeterTitle">tweeter</string>
+    <string name="sign_in_tab">Sign In</string>
+    <string name="register_tab">Register</string>
+    <string name="registerButtonText">Register</string>
+    <string name="lastnameInputHint">lastname</string>
+    <string name="firstnameInputHint">firstname</string>
+    <string name="upload_profile_picture">Upload Profile Picture</string>
+    <string name="separatorDot"> · </string>
+    <string name="timePosted"> 10:49 PM </string>
+    <string name="datePosted"> Sept 15 2020 </string>
+    <string name="storyContent"> This is where my story/status update goes! https://www.google.com </string>
+</resources>

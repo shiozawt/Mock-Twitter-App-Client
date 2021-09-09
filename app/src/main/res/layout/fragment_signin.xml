@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.signinFragment">
+
+    <EditText
+        android:id="@+id/usernameInput"
+        android:hint="@string/usernameLoginHint"
+        android:autofillHints="@string/usernameLoginHint"
+
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="20dp"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:textSize="25sp"
+        android:ems="10"
+        android:selectAllOnFocus="true"/>
+
+    <EditText
+        android:id="@+id/passwordInput"
+        android:autofillHints="@string/passwordLoginHint"
+        android:hint="@string/passwordLoginHint"
+
+        android:layout_alignStart="@+id/usernameInput"
+        android:layout_below="@+id/usernameInput"
+        android:layout_marginTop="0dp"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:textSize="25sp"
+        android:ems="10"
+        android:selectAllOnFocus="true"/>
+
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/passwordInput"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:text="@string/loginButtonText" />
+
+</RelativeLayout>
